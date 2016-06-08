@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.mimic-tabcom"
+  version="1.0.0"
+  name="Yola"
+  provider-name="TabCom Plus">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+		<import addon="resource.images.studios.white" version="0.0.4"/>
+		<import addon="script.grab.fanart" version="0.13.2"/>
+		<import addon="script.skinshortcuts" version="0.6.6"/>
+		<import addon="script.toolbox" version="1.0.0"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_US">Yola by TabCom</summary>
+		<description lang="en_US">Yola: A custom full configuration of the MIMIC skin.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://github.com/TabComPlus/skin.mimic-tabcom/blob/master/readme.md</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/TabComPlus/skin.mimic-tabcom.git</source>
+	</extension>
+</addon>
